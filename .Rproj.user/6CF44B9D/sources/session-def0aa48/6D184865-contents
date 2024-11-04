@@ -170,6 +170,7 @@ Use a few of them when you read in fev.csv and look at the data, is that what yo
 
 ```{r}
 # Add your code here!
+summary(fev_data)
 ```
 
 
