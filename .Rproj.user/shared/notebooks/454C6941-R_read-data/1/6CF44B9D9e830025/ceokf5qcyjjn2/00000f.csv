@@ -1,0 +1,20 @@
+"0","# Add your code here!"
+"0",""
+"0","install.packages(""readtext"")"
+"1","Error in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," : "
+"1",""
+"1","Updating loaded packages"
+"1",""
+"1","
+"
+"0","library(readtext)"
+"2","Warning: package ‘readtext’ was built under R version 4.3.3"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"0","psa_data <- readtext(""psa.txt"")"

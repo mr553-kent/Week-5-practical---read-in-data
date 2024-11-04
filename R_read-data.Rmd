@@ -82,7 +82,6 @@ sqrt(4) # base R
 4 %>%
   sqrt  # "pipe" operator (you can read is as "and then...")
 ```
-
 Tip: use the R Studio shortcut Ctrl + Sft + M to create the pipe operator %>%
 
 Tip: If you are not sure what a function does, type ?functionname in the Console, e.g. ?sqrt
@@ -121,6 +120,8 @@ fev_data <- read_csv(here("fev.csv"))
 
 ```{r}
 # Add your code here!
+
+"fev.csv" %>% read_csv()
 ```
 
 Look at the top few rows of the data:
@@ -150,6 +151,12 @@ There is a text file in your dataset so you can practice: psa.txt
 
 ```{r}
 # Add your code here!
+
+install.packages("readtext")
+
+library(readtext)
+
+psa_data <- readtext("psa.txt")
 ```
 
 --> Have a look at the "Useful arguments" section of the data import cheat sheet. 
@@ -163,6 +170,7 @@ Use a few of them when you read in fev.csv and look at the data, is that what yo
 
 ```{r}
 # Add your code here!
+summary(fev_data)
 ```
 
 
