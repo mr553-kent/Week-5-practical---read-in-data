@@ -1,0 +1,27 @@
+{
+    "id": "6D184865",
+    "path": "~/GitHUB/Week 5 practical - read in data/R_read-data.Rmd",
+    "project_path": "R_read-data.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1730711578878.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "last_setup_crc32": "def0aa48bb338d19",
+        "cursorPosition": "161,80",
+        "scrollLine": "131"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1730711456,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1730713223392,
+    "read_only": false,
+    "read_only_alternatives": []
+}
