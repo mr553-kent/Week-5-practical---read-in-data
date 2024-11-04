@@ -164,6 +164,13 @@ Use a few of them when you read in fev.csv and look at the data, is that what yo
 
 ```{r}
 # Add your code here!
+
+read_csv("fev.csv",col_names=FALSE)
+
+read_csv("fev.csv",
+         col_names=c("x","y","z"))
+
+
 ```
 
 --> Apply the summary function to a tibble. What does it do?
